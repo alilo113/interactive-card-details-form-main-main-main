@@ -1,0 +1,28 @@
+.not-card{
+    background-image: linear-gradient( to left top, hsl(212, 67%, 37%),hsl(0, 61%, 56%),hsl(249, 94%, 66%));
+    width: 447px;
+    height: 242px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 161px;
+    margin-top: 100px;
+    padding: 20px ;
+}
+
+.not-card
+h1{
+    margin-top: 70px;
+}
+
+.back-card 
+img{
+    margin-left: 100px;
+    margin-top: 36px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="form.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive card details form</title>
+</head>
+<body>
+  <div class="not-card">
+    <img src="./images/card-logo.svg" alt="">
+    <h1>9591 6489 6389 101E</h1>
+    <span>FELICIA LEIRE</span>
+    <span>09/00</span>
+  </div>
+  <div class="back-card">
+    <img src="./images/bg-card-back.png" alt="">
+  </div>
+  <form action="" id="form">
+    <div>CARDHOLDER NAME</div>
+    <input type="text" id="cardHolderName">
+    <div id="cardHolerNameError"></div>
+    <div>CARD NUMBER</div>
+    <input type="text" id="cardNum" placeholder="0000 0000 0000 0000">
+    <div id="cardHolderNumEror"></div>
+    <div>EXP.DATE (MM/YY)</div> 
+    <input type="text" id="mounth" placeholder="MM">
+    <input type="text" id="year" placeholder="YY"><br>
+    <button>confirm</button>
+  </form>
+<script src="form.js"></script>
+</body>
+</html>

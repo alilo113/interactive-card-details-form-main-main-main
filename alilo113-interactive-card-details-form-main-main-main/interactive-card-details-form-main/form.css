@@ -1,0 +1,59 @@
+form{
+    float: right;
+    margin-top: -500px;
+    margin-right: 300px;
+    margin-left: 200px;
+}
+
+form
+input{
+    padding: 10px;
+    padding-right: 55px;
+    border-radius: 9px;
+    border-color: rgb(129, 170, 224);
+}
+
+form
+#cardHolderName{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+form 
+#cardNum{
+     margin-top: 11px;
+     margin-bottom: 40px;
+     width: 300px;
+}
+
+form
+#mounth{
+    margin-top: 11px;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 20px;
+}
+
+form
+#year{
+    width: 44px;    
+    height: 20px;
+}
+
+form
+button{
+    width: 382px;
+    height: 54px;
+    border-radius: 9px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-size: 20px;
+}
+
+form
+#cardHolerNameError{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: red;
+}
