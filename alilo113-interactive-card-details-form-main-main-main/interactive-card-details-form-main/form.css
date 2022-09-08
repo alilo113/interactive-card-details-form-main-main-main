@@ -57,3 +57,10 @@ form
     margin-bottom: 15px;
     color: red;
 }
+
+form 
+#cardHolderNumEror{
+    color: red;
+    margin-top: -10%;
+    margin-bottom: 15px;
+}
