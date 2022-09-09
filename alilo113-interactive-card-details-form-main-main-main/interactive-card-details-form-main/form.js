@@ -21,15 +21,14 @@ form.addEventListener("submit",(e) => {
     let notCardNum = "9591 " + "6489 " + "6389 " + "101E";
     let notNum = cardNum.value
 
-    if(cardNum.value === notCardNum || cardNum.value === notNum.Number()){
+    if(cardNum.value === notCardNum || cardNum.value === notNum.toString()){
         cardHolderNumEror.innerHTML = "wrond format, numbers only";
         cardNum.style.borderColor = "red";
     }
     else if(cardNum.value === ""){
-        cardHolderNumEror.innerHTML = "can't be blank";
-        cardNum.style.borderColor = "red";
+        cardHolderNumEror.innerHTML = "can't be blank"; 
     }
-    else{
-        cardNum.style.borderColor = "green";
+    else {
+        cardHolderNumEror.borderColor = "green";
     }
 })
