@@ -49,6 +49,7 @@ button{
     background-color: hsl(278, 68%, 11%);
     color: white;
     font-size: 20px;
+    margin-top: 5%;
 }
 
 form
@@ -64,3 +65,17 @@ form
     margin-top: -10%;
     margin-bottom: 15px;
 }
+
+
+form 
+span{
+    color: red;
+    /*/font-size: 13px;*/
+}
+
+form
+#Error{
+    color: red;
+    margin-bottom: 10px;
+}
+
